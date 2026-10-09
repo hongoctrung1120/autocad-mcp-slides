@@ -55,10 +55,10 @@ body.has-photo .bg .scene { opacity: 0; }
 
 /* ---------- Thương hiệu ---------- */
 .brand { position: absolute; left: 96px; top: 72px; display: flex; align-items: center; gap: 28px; z-index: 5; }
-.brand .logo { width: 104px; height: 104px; padding: 8px; border: 2px solid var(--line); background: rgba(255,255,255,.04); }
+.brand .logo { width: 104px; height: 104px; }
 .brand .logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .brand .name { font-size: 22px; letter-spacing: 7px; color: var(--ink); opacity: .9; font-weight: 500; }
-.brand.small .logo { width: 72px; height: 72px; padding: 6px; }
+.brand.small .logo { width: 72px; height: 72px; }
 .brand.small .name { font-size: 18px; letter-spacing: 6px; }
 
 /* ---------- Chữ ---------- */
